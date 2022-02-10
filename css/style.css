@@ -6,13 +6,12 @@ body{
 
 .container{
     width: 1300px;
-    margin: auto;
-    display: flex;
+    margin: auto;    
 }
 .hader{
     height: 80px;
     width: 100%;
-    background-color: #f2f2f2;
+    background-color: #f2f2f2;    
 }
 .hader h1 {
     position: relative;
