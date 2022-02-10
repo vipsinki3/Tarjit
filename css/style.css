@@ -1,46 +1,99 @@
-body{
-    padding: 0;
+*{
     margin: 0;
-    background-color: #f2f2f2;
+}
+body{
+    background-color: #eaf0f2;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s ;
 }
 
-.container{
-    width: 1300px;
-    margin: auto;    
-}
-.hader{
+#haeder{
+    position: relative;
     height: 80px;
-    width: 100%;
-    background-color: #f2f2f2;    
-}
-.hader h1 {
-    position: relative;
-    left: 50px;
-    color: #0075ff;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-}
-.box {
-    position: relative;
-    height: 900px;
     background-color: #fff;
+    /* box-shadow: 2px 2px #f2f2f2; */
 }
-.box h1 {    
+#haeder h1 {
     position: relative;
-    top: 50px;
-    left: 20px;
+    top: 20px;
+    text-align: center;
+    color: #0075ff;
     font-family: 'Roboto', sans-serif;
-    padding: 15px 0px;
-    color: #607d8b;
-    width: 300px;
+    font-weight: bold;
 }
-.box h1 input{
-    height: 25px;
+#haeder img {
+    position: relative;
+    bottom: 15px;
+    left: 5px;
     width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: all 10s ease-in-out;
+    transform: rotate(+40deg);
 }
 
+.continer{
+    width: 1300px;
+    height: 800px;
+    background-color: #f6f6f6;
+    margin: auto;
+    margin-top: 20px;
+}
+.continer h1 {
+    color: #607d8b;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.continer h2 {
+    text-align: center;
+    width: 240px;
+    height: 50px;
+    color: white;
+    background-color: #0075ff;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 0px 18px #0075ff; */
+}
+.continer h1 input {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width:400px){
+    .continer{
+        width: 320px;
+    }
+}
+@media screen and (min-width:401px) and (max-width:500px) {
+    .continer{
+        width: 400px;
+    }
+}
+@media screen and (min-width:501px) and (max-width:700px) {
+    .continer{
+        width: 500px;
+    }
+}
+@media screen and (min-width:701px) and (max-width:900px) {
+    .continer{
+        width: 700px;
+    }
+}
+@media screen and (min-width:901px) and (max-width:1100px) {
+    .continer{
+        width: 900px;
+    }
+}
+@media screen and (min-width:1101px) and (max-width:1300px) {
+    .continer{
+        width: 1100px;
+    }
+}
 footer{
     position: relative;
+    margin-top: 109px;
     text-align: center;
     height: 80px;
     background-color: black;
@@ -50,19 +103,4 @@ footer span {
     top: 30px;
     color: white;
     font-family: 'Roboto', sans-serif;
-}
-@media screen and (min-width: 340px) {
-    .container{
-        width: 200px;
-    }    
-}
-@media screen and (min-width: 340px) and (max-width: 600px) {
-    .container{
-        width: 240px;
-    }    
-}
-@media screen and (min-width: 600px) and (max-width: 800px) {
-    .container{
-        width: 500px;
-    }    
 }
