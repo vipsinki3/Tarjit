@@ -97,10 +97,12 @@ footer{
     text-align: center;
     height: 80px;
     background-color: black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 footer span {
-    position: relative;
-    top: 30px;
+    position: relative;    
     color: white;
     font-family: 'Roboto', sans-serif;
 }
