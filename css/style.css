@@ -13,8 +13,9 @@ body{
     background-color: #fff;
     /* box-shadow: 2px 2px #f2f2f2; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 25px;
 }
 #haeder h1 {
     position: relative;
@@ -105,12 +106,10 @@ footer{
     text-align: center;
     height: 80px;
     background-color: black;
-    display: grid;
-    justify-content: center;
-    align-items: center;
 }
 footer span {
-    position: relative;    
+    position: relative;
+    top: 30px;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
