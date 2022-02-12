@@ -6,7 +6,10 @@ body{
     /* transition:cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s ; */
 
 }
-
+.dark-mode {
+    background-color: #272727;
+    color: white;
+}
 #haeder{
     position: relative;
     height: 80px;
@@ -16,6 +19,10 @@ body{
     justify-content: center;
     align-items: center;
     gap: 25px;
+}
+.header-dark-mode{
+    background-color: #272727 !important;
+    color: white !important;
 }
 #haeder h1 {
     position: relative;
@@ -112,4 +119,14 @@ footer span {
     top: 30px;
     color: white;
     font-family: 'Roboto', sans-serif;
+}
+
+
+#mohamed{
+    height: 500px;
+    background-color: #f6f6f6;
+    width: 100%;
+}
+.con-dark{
+    background-color: #272727 !important;    
 }
