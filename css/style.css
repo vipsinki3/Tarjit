@@ -31,6 +31,9 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
+.HHH1{
+    color: white !important;
+}
 
 #haeder img {
     position: relative;
@@ -53,6 +56,10 @@ body{
     padding: 20px;
     font-family: 'Roboto', sans-serif;
 }
+.continerh4{
+    color: #bdbdbd !important;
+}
+
 .continer h2 {
     text-align: center;
     width: 240px;
@@ -69,6 +76,9 @@ body{
 .continer h1 input {
     width: 30px;
     height: 30px;
+}
+.con-dark{
+    background-color: #272727 !important;
 }
 
 @media screen and (max-width:400px){
@@ -122,11 +132,3 @@ footer span {
 }
 
 
-#mohamed{
-    height: 500px;
-    background-color: #f6f6f6;
-    width: 100%;
-}
-.con-dark{
-    background-color: #272727 !important;    
-}
