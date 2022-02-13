@@ -9,5 +9,5 @@ function myFunction() {
     let headerH1 = document.getElementById("h1-dark");
     headerH1.classList.toggle("HHH1");
     let containerh1 = document.getElementById("hh1-dark");
-    containerh1.classList.toggle("continerh4")
+    containerh1.classList.toggle("continerh4");
 }

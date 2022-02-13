@@ -3,7 +3,7 @@
 }
 body{
     background-color: #eaf0f2;
-    /* transition:cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s ; */
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s ;
 
 }
 .dark-mode {
@@ -123,12 +123,12 @@ footer{
     text-align: center;
     height: 80px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer span {
     position: relative;
-    top: 30px;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-
-
