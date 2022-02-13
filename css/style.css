@@ -70,8 +70,10 @@ body{
     font-family: 'Roboto', sans-serif;
     display: grid;
     justify-content: center;
-    align-items: center;
-    /* box-shadow: 0px 0px 18px #0075ff; */
+    align-items: center;    
+}
+.study-h2dark{
+    box-shadow: 0px 0px 5px #0075ff;
 }
 .continer h1 input {
     width: 30px;

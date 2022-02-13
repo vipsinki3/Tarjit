@@ -10,4 +10,6 @@ function myFunction() {
     headerH1.classList.toggle("HHH1");
     let containerh1 = document.getElementById("hh1-dark");
     containerh1.classList.toggle("continerh4");
+    let studyh1 = document.getElementById("h2");
+    studyh1.classList.toggle("study-h2dark")
 }
