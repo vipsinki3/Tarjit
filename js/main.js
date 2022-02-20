@@ -1,5 +1,9 @@
 document.getElementById("sora").onclick = (myFunction)
-function myFunction() {
+document.getElementById("sora").src = "./img/wb_sunny_black_24dp.svg";
+var hhh = document.getElementById("hhh");
+let x = true;
+function myFunction () {
+    hhh.classList.toggle("nnn")
     var bodyDark = document.body;
     bodyDark.classList.toggle("dark-mode");
     var haeder=document.getElementById("haeder");
@@ -11,5 +15,11 @@ function myFunction() {
     let containerh1 = document.getElementById("hh1-dark");
     containerh1.classList.toggle("continerh4");
     let studyh1 = document.getElementById("h2");
-    studyh1.classList.toggle("study-h2dark")
+    studyh1.classList.toggle("study-h2dark")    
+    if(hhh.classList.contains("nnn")){
+        sora.src = "./img/wb_sunny_white_24dp.svg";
+    }else{
+        sora.src = "./img/wb_sunny_black_24dp.svg";
+    }
 }
+
